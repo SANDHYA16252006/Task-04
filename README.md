@@ -1,1 +1,3 @@
-# Task-04
+The objective was to build a logistic regression model to classify breast cancer tumors as malignant or benign using the Breast Cancer Wisconsin dataset. The dataset was first cleaned and preprocessed by handling missing values, dropping unnecessary columns such as IDs, and converting categorical values into binary form where needed. After standardizing the features, the dataset was split into training and testing sets.
+
+A logistic regression model was trained using Scikit-learn. The performance of the model was evaluated using several metrics, including the confusion matrix, precision, recall, classification report, and ROC-AUC score. We also plotted the ROC curve to visualize model performance across different thresholds. Additionally, we demonstrated how the sigmoid function works and showed how changing the classification threshold affects precision and recall. 
